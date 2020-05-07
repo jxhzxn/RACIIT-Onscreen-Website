@@ -308,7 +308,7 @@ select{
   }
 
   .prize-text{
-    font-size: 50px;
+    font-size: 38px;
     letter-spacing: -3px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
@@ -490,6 +490,11 @@ select{
 .prize-red{
     color: rgb(190, 11, 16);
     font-size: 90px;
+}
+
+.prize-red-lkr{
+    color: rgb(190, 11, 16);
+    font-size: 60px;
 }
 
 .red-alert{
