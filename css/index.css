@@ -830,6 +830,24 @@ input[type=number] {
         flex-direction: column;
     }
 
+    .prize-text-container{
+        border-color: white;
+        /* border-style: dotted; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .prize-box{
+        /* border-style: solid; */
+        border-color: white;
+        background-color: rgb(14, 14, 14);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: all 0.3s;
+        width: 80%;
+    }
+
     .first-img-box{
         /* border-style: solid; */
         width: 100%;
