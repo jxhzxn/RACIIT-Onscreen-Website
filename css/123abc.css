@@ -127,7 +127,7 @@ p{
 }
 
 .num{
-    width: 4%;
+    width: 2%;
     border-color: red;
     /* border-style: solid; */
     display: flex;
@@ -135,7 +135,7 @@ p{
 }
 
 .name{
-    width: 43%;
+    width: 25%;
     border-color: red;
     /* border-style: solid; */
     display: flex;
@@ -150,8 +150,16 @@ p{
     /* border-style: solid; */
 }
 
+.theme{
+    width: 26%;
+    border-color: red;
+    display: flex;
+    justify-content: center;
+    /* border-style: solid; */
+}
+
 .email{
-    width: 35%;
+    width: 32%;
     border-color: red;
     /* border-style: solid; */
     display: flex;
@@ -159,7 +167,7 @@ p{
 }
 
 .phone{
-    width: 15%;
+    width: 12%;
     border-color: red;
     display: flex;
     justify-content: center;

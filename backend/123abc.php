@@ -26,7 +26,7 @@
     <?php
         include "./db-config.php";
 
-        $query = 'SELECT cid,cname,cage,cemail,ccontact FROM competitors';
+        $query = 'SELECT cid,cname,cage,cemail,ccontact,ctheme FROM competitors';
         $stmt = $con -> prepare($query);
         $stmt->execute();
         $row = $stmt->fetchAll();
@@ -51,6 +51,7 @@
                         <p class="num"><?php echo $i?>.</p>
                         <p class="name"><?php echo $competitors['cname'] ?></p>
                         <p class="age"><?php echo $competitors['cage'] ?></p>
+                        <p class="theme"><?php echo $competitors['ctheme'] ?></p>
                         <p class="email"><?php echo $competitors['cemail'] ?></p>
                         <p class="phone"><?php echo $competitors['ccontact'] ?></p>
                     </div>

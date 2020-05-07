@@ -79,13 +79,13 @@
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
-                    <p  id="rules" class="prize-text">Overall most <br>Popular <br>Video <br><span class="prize-red">LKR <br>25,000</span></p>
+                    <p  id="rules" class="prize-text"><span class="prize-red">LKR <br>25,000<br></span>Overall most <br>Popular <br>Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="rules" class="prize-text">Overall most <br>Creative <br>Video <br><span class="prize-red">LKR <br>25,000</span></p>
+                    <p  id="rules" class="prize-text"><span class="prize-red">LKR <br>25,000<br></span>Overall most <br>Creative <br>Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="rules" class="prize-text">Winner from <br>each <br>topic <br><span class="prize-red">LKR <br>10,000</span></p>
+                    <p  id="rules" class="prize-text"><span class="prize-red">LKR <br>10,000<br></span>Winner from <br>each <br>topic</p>
                 </div>
             </div>
         </div>
@@ -101,6 +101,14 @@
                     <form id="form-id" action="" method="" class="form-elements-container" required>
                         <input class="form-element" id="userName" type="text" placeholder="Full Name" required>
                         <input class="form-element" id="userAge" type="number" placeholder="Age" required>
+                        <select class="form-element" id="theme" required>
+                            <option value="" disabled selected hidden>Select the Theme</option>
+                            <option value="Nutrition during crises">Nutrition during this time of crises</option>
+                            <option value="Importance of Hygiene">Importance of Hygiene</option>
+                            <option value="Violence free home">A violence free home for the children</option>
+                            <option value="Going green">Going green</option>
+                            <option value="Mental health">Mental health</option>
+                        </select>
                         <input class="form-element" id="userEmail" type="email" placeholder="Email ID" required>
                         <input class="form-element" id="userContact" type="number" placeholder="Contact Number" required>
                             <div class="checkbox-elements">
@@ -322,6 +330,7 @@
             var age = $("#userAge").val();
             var email = $("#userEmail").val();
             var contact = $("#userContact").val();
+            var theme = $("#theme").val();
 
             $.ajax({
                 method: "POST",
@@ -330,7 +339,8 @@
                     name : name,
                     age : age,
                     email : email,
-                    contact : contact
+                    contact : contact,
+                    theme : theme
                 },
 
                 success: function(data){
