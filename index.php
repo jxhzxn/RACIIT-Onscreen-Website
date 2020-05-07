@@ -3,6 +3,7 @@
         <title>OnScreen 2.0</title>
         <link rel="icon" href="./assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- comment -->
 
         <!-- External CSS -->
         <link rel="stylesheet" href="./css/index.css">
