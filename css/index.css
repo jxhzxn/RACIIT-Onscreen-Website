@@ -741,6 +741,26 @@ a{
     color: rgb(184, 0, 123);
 }
 
+.prize-text-container{
+    border-color: white;
+    /* border-style: dotted; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.prize-box{
+    /* border-style: solid; */
+    border-color: white;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+.prize-box:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transform: scale(1.08);
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

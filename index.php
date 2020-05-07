@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Screen 2.0</title>
+        <title>OnScreen 2.0</title>
         <link rel="icon" href="./assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- comment -->
@@ -77,10 +77,16 @@
         <div class="rules-head-container">
                 <p  id="prizes" class="rules-text">Prizes<span class="red">!</span></p>
             </div>
-            <div class="rules-head-container">
-                <p  id="rules" class="prize-text">Overall most Popular Video <br><span class="prize-red">25,000 LKR</span></p>
-                <p  id="rules" class="prize-text">Overall most Creative Video <br><span class="prize-red">25,000 LKR</span></p>
-                <p  id="rules" class="prize-text">Winner from each topic <br><span class="prize-red">10,000 LKR</span></p>
+            <div class="prize-text-container">
+                <div class="prize-box">
+                    <p  id="rules" class="prize-text">Overall most <br>Popular <br>Video <br><span class="prize-red">LKR <br>25,000</span></p>
+                </div>
+                <div class="prize-box">
+                    <p  id="rules" class="prize-text">Overall most <br>Creative <br>Video <br><span class="prize-red">LKR <br>25,000</span></p>
+                </div>
+                <div class="prize-box">
+                    <p  id="rules" class="prize-text">Winner from <br>each <br>topic <br><span class="prize-red">LKR <br>10,000</span></p>
+                </div>
             </div>
         </div>
     </div>
