@@ -35,6 +35,7 @@
             <div class="btn-container">
                 <a href="#about"><button class="left-btn">About</button></a>
                 <a href="#reg-form"><button class="left-btn">Register</button></a>
+                <a href="#prizes"><button class="left-btn">Prizes</button></a>
                 <a href="#deadline"><button class="left-btn">Deadline</button></a>
                 <a href="#rules"><button class="left-btn">Rules</button></a>
                 <a href="#committee"><button class="left-btn">Committee</button></a>
@@ -70,6 +71,19 @@
         </div>
     </div>
 
+    <div class="third-container">
+        <div class="rules-container">
+        <div class="rules-head-container">
+                <p  id="prizes" class="rules-text">Prizes<span class="red">!</span></p>
+            </div>
+            <div class="rules-head-container">
+                <p  id="rules" class="prize-text">Overall most Popular Video <br><span class="prize-red">25,000 LKR</span></p>
+                <p  id="rules" class="prize-text">Overall most Creative Video <br><span class="prize-red">25,000 LKR</span></p>
+                <p  id="rules" class="prize-text">Winner from each topic <br><span class="prize-red">10,000 LKR</span></p>
+            </div>
+        </div>
+    </div>
+
 
     <div class="second-container">
         <div class="form-container">
@@ -77,7 +91,7 @@
                 <p id="reg-form" class="rules-text">Register Now<span class="red">!</span></p>
             </div>
             <div class="intro-form-container">
-                    <form id="reg-form" action="" method="" class="form-elements-container" required>
+                    <form id="form-id" action="" method="" class="form-elements-container" required>
                         <input class="form-element" id="userName" type="text" placeholder="Full Name" required>
                         <input class="form-element" id="userAge" type="number" placeholder="Age" required>
                         <input class="form-element" id="userEmail" type="email" placeholder="Email ID" required>
@@ -91,6 +105,7 @@
             </div>
         </div>
     </div>
+
 
   
 
@@ -106,9 +121,11 @@
                         <li>Applications will be called online and direct correspondence.</li>
                         <li>Movies have to be based on three thematic areas; </li>
                             <ul type="square">
-                                <li>Child rights </li>
-                                <li>Hygiene </li>
-                                <li>Agriculture</li>
+                                <li>Nutrition during this time of crises </li>
+                                <li>Importance of Hygiene </li>
+                                <li>A violence free home for the children</li>
+                                <li>Going green</li>
+                                <li>Mental health</li>
                             </ul>
                         <li>Language – no restrictions.</li>
                         <li>Equipment to be used – mobile phones or entry-level video cameras are encouraged.</li>
@@ -298,7 +315,6 @@
             var age = $("#userAge").val();
             var email = $("#userEmail").val();
             var contact = $("#userContact").val();
-            var check = $("#checkBox").val();
 
             $.ajax({
                 method: "POST",
@@ -307,13 +323,18 @@
                     name : name,
                     age : age,
                     email : email,
-                    contact : contact,
-                    check : check
+                    contact : contact
                 },
 
                 success: function(data){
                     if($.trim(data)==1){
-                        alert("Registered Succesfully");
+                        Swal.fire(
+                          "<div>Registration Successful</div>",
+                          "",
+                          'success'
+                        );
+                        document.querySelector("#reg-form").outerHTML="<p id='reg-form' class='rules-text' hidden>Register Now<span class='red'>!</span></p>";
+                        document.querySelector("#form-id").outerHTML="<p id='reg-form' class='rules-text'> Already Registered<span class='red'>!</span></p>"
                         // window.location.href="./index.php";
                     }else if($.trim(data)==2){
                         Swal.fire(
