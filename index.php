@@ -242,11 +242,11 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("count-down").innerHTML ="<span class='testing-head'>Registration <span class='red-on'>closing</span>  in </span><br><br><span class='testing'>" +days+ "</span> <span class='day'>D&nbsp&nbsp</span><span class='testing'>" + hours + "</span> <span class='day'>h&nbsp&nbsp</span><span class='testing'>" + minutes + "</span> <span class='day'>m&nbsp&nbsp</span><span class='testing'>" + seconds + "</span> <span class='day'>s</span>";
+            document.getElementById("count-down").innerHTML ="<span class='testing-head'>Registration <span class='red-on'>cl<img class='spinner' src='./assets/images/spinner-sm.gif'><div class='for-spinner'>sing</span></div></span>  in <br><br><div class='idk'><span class='testing'>" +days+ "</span> <span class='day'>D&nbsp&nbsp</span><span class='testing'>" + hours + "</span> <span class='day'>h&nbsp&nbsp</span><span class='testing'>" + minutes + "</span> <span class='day'>m&nbsp&nbsp</span><span class='testing'>" + seconds + "</span> <span class='day'>s</span></div>";
 
             if (distance < 0) {
              clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            document.getElementById("demo").innerHTML = "Registraion is closed :/";
             }
         },1000);
     </script>
