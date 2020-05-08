@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./css/all.min.css">
 
         <!-- Google Fonts -->
-         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
          <!-- jQuery CDN -->
@@ -39,7 +39,7 @@
                 <a href="#prizes"><button class="left-btn">Prizes</button></a>
                 <a href="#deadline"><button class="left-btn">Deadline</button></a>
                 <a href="#rules"><button class="left-btn">Rules</button></a>
-                <a href="#committee"><button class="left-btn">Committee</button></a>
+                <a href="#committee"><button class="left-btn">Contact Us</button></a>
             </div>
           
     </div>
@@ -47,7 +47,7 @@
     <div class="fifth-container">
         <div class="about-container">
             <div id="about" class="about-heading-container">
-                <p class="rules-text">About On Screen <span class="red">2.0</span></p>
+                <p class="rules-text">About OnScreen <span class="red">2.0</span></p>
             </div>
             <div class="about-other-container">
                 <div class="about-logo-container">
@@ -75,17 +75,18 @@
     <div class="third-container">
         <div class="rules-container">
         <div class="rules-head-container">
-                <p  id="prizes" class="rules-text">Prizes<span class="red">!</span></p>
+                <p  id="prizes" class="rules-text">Prizes</p>
+                <p  class="rules-text-desc">The Winners of Onscreen will Receive Cash Prizes as Follows</p>
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular <br>Video</p>
+                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative <br>Video</p>
+                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each <br>topic</p>
+                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each topic</p>
                 </div>
             </div>
         </div>
@@ -95,7 +96,7 @@
     <div class="second-container">
         <div class="form-container">
             <div class="reg-head-container">
-                <p id="reg-form" class="rules-text">Register Now<span class="red">!</span></p>
+                <p id="reg-form" class="rules-text">Register Now</p>
             </div>
             <div class="intro-form-container">
                     <form id="form-id" action="" method="" class="form-elements-container" required>
@@ -109,7 +110,7 @@
                             <option value="Going green">Going green</option>
                             <option value="Mental health">Mental health</option>
                         </select>
-                        <input class="form-element" id="userEmail" type="email" placeholder="Email ID" required>
+                        <input class="form-element" id="userEmail" type="email" placeholder="Email Address" required>
                         <input class="form-element" id="userContact" type="number" placeholder="Contact Number" required>
                             <div class="checkbox-elements">
                                 <input type="checkbox" id="checkBox" value=1>
@@ -155,152 +156,11 @@
     <div class="sixth-container">
         <div class="committee-container">
             <div id="committee" class="committee-heading-container">
-                <p class="rules-text">The <span class="red">OnScreen</span> Committee</p>
+                <p class="rules-text">Contact Us</p>
             </div>
-
-            <div class="card-container">
-
-            <!-- Start of Card -->
-              <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Zuha Mursheed</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/zuha.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Project Chairperson</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-               <!-- Start of Card -->
-               <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Harivarshan Selvarajah</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/harivarshan.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Project Co -Chairperson</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-            <!-- Start of Card -->
-            <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Vivek Subendran</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/vivek.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Project Secretary</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-            <!-- Start of Card -->
-            <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Raneesh Fernando</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/raneesh.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Project Treasurer</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-                        <!-- Start of Card -->
-                        <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Shehan Saleem</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/shehan.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">In Charge <br/> of PR</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-            <!-- Start of Card -->
-            <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Thanushi Ganegoda</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/thanushi.JPG" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Joint Professional <br/>Development Director</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-            <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Wishva Ravindu</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/wishva.JPG" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Joint Professional <br/>Development Director</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-            <!-- Start of Card -->
-            <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Jahzan Ahamed</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/jahzan.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">In Charge <br/>of IT</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
-            <!-- Start of Card -->
-            <div class="card">
-                <div class="img-box">
-                    <div class="buy-btn-box">
-                        <p class="buy-btn">Hashini Kodithuwaku</p>
-                    </div>
-                    <img class="com-img" src="./assets/images/hashini.jpg" alt="pic">
-                </div>
-                <div class="item-desc">
-                    <p class="item-desc-title">Editor</p>
-                </div>
-            </div>
-            <!-- End of Card -->
-
- 
-
- 
-
-       
-
-
-
-            
- 
-
-
 
            
 
-            </div>
         </div>
     </div>
  
@@ -311,7 +171,7 @@
                     <p class="footer-text">2020 © Copyrights Rotaract Club of IIT</p>
                 </div>
                 <div class="f-center footer-text">
-                    <a href="#about" class="nav">About</a><p>&nbsp;|&nbsp;</p><a href="#reg-form" class="nav">Register</a><p>&nbsp;|&nbsp;</p><a href="#deadline" class="nav">Deadline</a><p>&nbsp;|&nbsp;</p><a href="#rules" class="nav">Rules</a><p>&nbsp;|&nbsp;</p><a href="#committee" class="nav">Committee</a>
+                    <a href="#about" class="nav">About</a><p>&nbsp;|&nbsp;</p><a href="#reg-form" class="nav">Register</a><p>&nbsp;|&nbsp;</p><a href="#deadline" class="nav">Deadline</a><p>&nbsp;|&nbsp;</p><a href="#rules" class="nav">Rules</a><p>&nbsp;|&nbsp;</p><a href="#committee" class="nav">Contact Us</a>
                 </div>
                 <div class="f-right">
                     <a href="https://www.facebook.com/iitrotaract/"><i class="fab fa-facebook-f fb-icon"></i></a>&nbsp&nbsp<a href="https://twitter.com/IITRotaract"><i class="fab fa-twitter twitter-icon"></i></a>&nbsp&nbsp<a href="https://www.instagram.com/rotaract_iit/"><i class="fab fa-instagram ig-icon"></i></a>&nbsp&nbsp<a href="https://rciit.org/"><i class="fas fa-globe globe-icon"></i></a></p>
@@ -382,7 +242,7 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("count-down").innerHTML ="<span class='testing-head'>Registrati<span class='red-on'>on</span> closing in</span><br><br><span class='testing'>" +days+ "</span> <span class='day'>Days&nbsp&nbsp</span><span class='testing'>" + hours + "</span> <span class='day'>h&nbsp&nbsp</span><span class='testing'>" + minutes + "</span> <span class='day'>m&nbsp&nbsp</span><span class='testing'>" + seconds + "</span> <span class='day'>sec</span>";
+            document.getElementById("count-down").innerHTML ="<span class='testing-head'>Registration <span class='red-on'>closing</span>  in </span><br><br><span class='testing'>" +days+ "</span> <span class='day'>D&nbsp&nbsp</span><span class='testing'>" + hours + "</span> <span class='day'>h&nbsp&nbsp</span><span class='testing'>" + minutes + "</span> <span class='day'>m&nbsp&nbsp</span><span class='testing'>" + seconds + "</span> <span class='day'>s</span>";
 
             if (distance < 0) {
              clearInterval(x);

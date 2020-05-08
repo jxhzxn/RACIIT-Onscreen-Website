@@ -59,7 +59,7 @@ a{
 .left-btn{
     color: white;
     height: 80px;
-    width: 190px;
+    width: 180px;
     border-radius: 20px;
     /* background-color:  #b03831; */
     background-color: inherit;
@@ -69,21 +69,21 @@ a{
     border:none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     transition: all 0.3s;
     /* font-size: 40px; */
-    font-size: 33px;
+    font-size: 26px;
     text-align: center;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     cursor: pointer;
 }
 
 .left-btn:hover{
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
     transition: all 0.3s;
-    transform: scale(1.15);
+    transform: scale(1.05);
     color: rgb(190, 11, 16);
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 
 .second-container{
@@ -191,9 +191,10 @@ a{
 .reg-btn{
     /* color: white; */
     /* margin-top: 40px; */
+    color: white;
     margin-bottom: 20px;
-    height: 80px;
-    letter-spacing: -2px;
+    height: 70px;
+    letter-spacing: -1px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 800;
@@ -204,7 +205,7 @@ a{
     border:none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: all 0.3s;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     cursor: pointer;
     outline: 0px;
@@ -229,14 +230,14 @@ a{
 }
 
 .form-element{
-    /* border-radius: 20px; */
+    border-radius: 10px;
     text-align: center;
     width: 500px;
     height: 70px;
     font-size: 22px;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     border: none;
     outline: 0px;
@@ -260,6 +261,10 @@ select{
     text-align-last: center;
 }
 
+option{
+    padding: 50px;
+}
+
   .third-container{
       /* padding-top: 30px; */
       border-color: white;
@@ -271,7 +276,7 @@ select{
   }
 
   .rules-container{
-    padding-top: 35px;
+    padding-top: 150px;
     background-color: #1f1f1f;
     border-color: white;
     /* border-style: dotted; */
@@ -288,8 +293,8 @@ select{
   }
 
   .rules-text{
-      font-size: 80px;
-      letter-spacing: -5px;
+      font-size: 65px;
+      letter-spacing: -2px;
       font-weight: 800;
       font-family: 'Montserrat', sans-serif;
       color: white;
@@ -297,14 +302,23 @@ select{
       transition: all 0.3s;
   }
 
+  .rules-text-desc{
+    font-size: 25px;
+    /* letter-spacing: -2px; */
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    transition: all 0.3s;
+    margin-top: -50px;
+}
+
   .rules-text:hover{
     transition: all 0.3s;
-    /* transform: scale(1.10); */
-    /* color: rgba(220, 20, 60, 0.651); */
     color: rgb(190, 11, 16);
     cursor: default;
     transform: scale(1.03);
-    letter-spacing: -4px;
+    /* letter-spacing: -4px; */
   }
 
   .prize-text{
@@ -321,12 +335,9 @@ select{
 
 
   .rules-desc{
-    font-size: 22px;
-    /* font-weight: 500; */
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: white;
   }
 
@@ -358,18 +369,27 @@ select{
 }
 
 .timer-container{
-    border-style: solid;
-    border-width: 160px;
-    border-color: #1f1f1f;
-    background-color: #141414dc;
-    /* background-color:rgba(220, 20, 60, 0.651); */
+    /* border-style: solid; */
+    /* background-color: #141414dc; */
+    /* background-color: black; */
+    background-color: #1f1f1f;
     width: 100%;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
 }
 
 .count-down{
+    border-color: white;
+    /* border-style: solid; */
     color: white;
+    width: 80%;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     /* color: rgba(220, 20, 60, 0.651); */
     /* font-family: 'Poppins', sans-serif; */
+    padding: 60px 60px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
@@ -410,10 +430,8 @@ select{
 
 .about-text{
     color: white;
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 23px;
     padding-right: 30px;
     text-align: justify;
@@ -463,8 +481,8 @@ select{
 }
 
 .testing-head{
-    font-size: 80px;
-    letter-spacing: -5px;
+    font-size: 65px;
+    letter-spacing: -2px;
     line-height: 90%;
     transition: all 0.3s;
 }
@@ -472,8 +490,8 @@ select{
 .testing-head:hover{
     color: rgb(190, 11, 16);
     transform: scale(1.03);
-    letter-spacing: -4px;
     transition: all 0.3s;
+    letter-spacing: 0px;
     cursor: default;
 }
 
@@ -484,7 +502,7 @@ select{
 
 .red{
     color: rgb(190, 11, 16);
-    font-size: 100px;
+    font-size: 75px;
 }
 
 .prize-red{
@@ -683,7 +701,7 @@ a{
 
 .checkbox-text{
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
@@ -708,10 +726,10 @@ a{
 }
 
 .footer-text{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: white;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .fb-icon{
@@ -755,6 +773,7 @@ a{
     /* border-style: dotted; */
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .prize-box{
@@ -978,7 +997,7 @@ input[type=number] {
 
     .rules-text{
         font-size: 80px;
-        letter-spacing: -5px;
+        /* letter-spacing: -3px; */
         font-weight: 800;
         font-family: 'Montserrat', sans-serif;
         color: white;
