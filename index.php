@@ -231,7 +231,7 @@
     </script>
 
     <script>
-        var countDownDate = new Date("May 10, 2020 00:00:00").getTime();
+        var countDownDate = new Date("May 30, 2020 00:00:00").getTime();
 
         var x = setInterval(function(){
             var now = new Date().getTime();
