@@ -88,7 +88,6 @@ a{
 
 .second-container{
     font-family: 'Bebas Neue', cursive;
-    /* margin-top: 800px; */
     font-size: 50px;
     color: white;
     border-color: white;
@@ -116,6 +115,7 @@ a{
 }
 
 .reg-head-container{
+    margin-top: 200px;
     border-color: white;
     /* border-style: dotted; */
 }

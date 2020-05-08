@@ -79,13 +79,13 @@
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
-                    <p  id="rules" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular <br>Video</p>
+                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular <br>Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="rules" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative <br>Video</p>
+                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative <br>Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="rules" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each <br>topic</p>
+                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each <br>topic</p>
                 </div>
             </div>
         </div>
