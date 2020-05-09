@@ -158,6 +158,20 @@
             <div id="committee" class="committee-heading-container">
                 <p class="rules-text">Contact Us</p>
             </div>
+            <div class="com-mem-container">
+                <div class="com-mem">
+                    <p class="com-mem-name">Arshad Najudeen</p>
+                    <p class="com-post">World Vision Lanka Representative</p>
+                    <p class="com-mail"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Arshad_Najumudeen@wvi.org</p>
+                    <p class="com-phone"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;077 957 2295</p>
+                </div>
+                <div class="com-mem">
+                    <p class="com-mem-name">Zuha Mursheed</p>
+                    <p class="com-post">Project Chairperson <br>from IIT</p>
+                    <p class="com-mail"><i class="fas fa-envelope"></i>&nbsp;&nbsp;zuha.2018105@iit.ac.lk</p>
+                    <p class="com-phone"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;076 693 4555</p>
+                </div>
+            </div>
 
            
 
