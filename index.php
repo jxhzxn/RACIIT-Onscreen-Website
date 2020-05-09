@@ -29,6 +29,10 @@
         <source src="./assets/videos/intro-video.mp4" type="video/mp4">
     </video>
 
+    <!-- <div class="load">
+        <img src="./assets/images/spinner-bg.gif">
+    </div> -->
+
     <div class="first-container">
             <div class="first-img-box">
                 <img class="logo" src="./assets/images/wide-logo-1.png">
@@ -114,7 +118,7 @@
                         <input class="form-element" name="userEmail" type="email" placeholder="Email Address" required>
                         <input class="form-element" name="userContact" type="number" placeholder="Contact Number" required>
                         <label class="custom-file-upload">
-                            Upload Video
+                        <i class="fas fa-video"></i> Upload Video
                             <input type="file" name="videoUpload" id="videoUpload" required>
                         </label>
                             <div class="checkbox-elements">
@@ -200,7 +204,7 @@
     </footer>
 
 
-    
+  
 
 
     <!-- <script type="text/javascript">

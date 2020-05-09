@@ -277,6 +277,16 @@ input[type="file"] {
     outline: 0px;
 }
 
+.custom-file-upload:hover{
+    color: white;
+    background-color: rgb(190, 11, 16);
+}
+
+.custom-file-upload:active{
+    background-color: white;
+    color: rgb(190, 11, 16);
+}
+
 .form-element{
     border-radius: 10px;
     text-align: center;
