@@ -959,7 +959,7 @@ input[type=number] {
     }
 
     .first-img-box{
-        border-style: solid;
+        /* border-style: solid; */
         width: 100%;
         border-color: white;
         display: flex;
