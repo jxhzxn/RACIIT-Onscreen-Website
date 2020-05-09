@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="../css/all.min.css">
 
         <!-- Google Fonts -->
-         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
          <!-- jQuery CDN -->
@@ -26,7 +27,7 @@
     <?php
         include "./db-config.php";
 
-        $query = 'SELECT cid,cname,cage,cemail,ccontact,ctheme FROM competitors';
+        $query = 'SELECT cid,cname,cage,cemail,ccontact,ctheme,cnic FROM competitors';
         $stmt = $con -> prepare($query);
         $stmt->execute();
         $row = $stmt->fetchAll();
@@ -50,10 +51,11 @@
                     <div class="reg-element">
                         <p class="num"><?php echo $i?>.</p>
                         <p class="name"><?php echo $competitors['cname'] ?></p>
+                        <p class="nic"><?php echo $competitors['cnic'] ?></p>
                         <p class="age"><?php echo $competitors['cage'] ?></p>
                         <p class="theme"><?php echo $competitors['ctheme'] ?></p>
-                        <p class="email"><?php echo $competitors['cemail'] ?></p>
                         <p class="phone"><?php echo $competitors['ccontact'] ?></p>
+                        <p class="email"><?php echo $competitors['cemail'] ?></p>
                     </div>
 
             <?php

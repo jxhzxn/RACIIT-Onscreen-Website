@@ -99,10 +99,11 @@
                 <p id="reg-form" class="rules-text">Register Now</p>
             </div>
             <div class="intro-form-container">
-                    <form id="form-id" action="" method="" class="form-elements-container" required>
-                        <input class="form-element" id="userName" type="text" placeholder="Full Name" required>
-                        <input class="form-element" id="userAge" type="number" placeholder="Age" required>
-                        <select class="form-element" id="theme" required>
+                    <form id="form-id" action="./backend/index.php" method="POST" class="form-elements-container" required enctype="multipart/form-data">
+                        <input class="form-element" name="userName" type="text" placeholder="Full Name" required>
+                        <input class="form-element" name="userNIC" type="text" placeholder="NIC no." required>
+                        <input class="form-element" name="userAge" type="number" placeholder="Age" required>
+                        <select class="form-element" name="userTheme" required>
                             <option value="" disabled selected hidden>Select the Theme</option>
                             <option value="Nutrition during crises">Nutrition during this time of crises</option>
                             <option value="Importance of Hygiene">Importance of Hygiene</option>
@@ -110,10 +111,14 @@
                             <option value="Going green">Going green</option>
                             <option value="Mental health">Mental health</option>
                         </select>
-                        <input class="form-element" id="userEmail" type="email" placeholder="Email Address" required>
-                        <input class="form-element" id="userContact" type="number" placeholder="Contact Number" required>
+                        <input class="form-element" name="userEmail" type="email" placeholder="Email Address" required>
+                        <input class="form-element" name="userContact" type="number" placeholder="Contact Number" required>
+                        <label class="custom-file-upload">
+                            Upload Video
+                            <input type="file" name="videoUpload" id="videoUpload" required>
+                        </label>
                             <div class="checkbox-elements">
-                                <input type="checkbox" id="checkBox" value=1>
+                                <input type="checkbox" id="checkBox" value=1 required>
                                 <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
                             </div>
                         <button type="submit" class="reg-btn" id="regbtn">Register</button>
@@ -161,13 +166,13 @@
             <div class="com-mem-container">
                 <div class="com-mem">
                     <p class="com-mem-name">Arshad Najudeen</p>
-                    <p class="com-post">World Vision Lanka Representative</p>
+                    <p class="com-post">Communications Coordinator, <br>World Vision Lanka</p>
                     <p class="com-mail"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Arshad_Najumudeen@wvi.org</p>
                     <p class="com-phone"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;077 957 2295</p>
                 </div>
                 <div class="com-mem">
                     <p class="com-mem-name">Zuha Mursheed</p>
-                    <p class="com-post">Project Chairperson <br>from IIT</p>
+                    <p class="com-post">Project Chairperson, <br>IIT</p>
                     <p class="com-mail"><i class="fas fa-envelope"></i>&nbsp;&nbsp;zuha.2018105@iit.ac.lk</p>
                     <p class="com-phone"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;076 693 4555</p>
                 </div>
@@ -198,7 +203,7 @@
     
 
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $("#regbtn").click(function(form){
             var name = $("#userName").val();
             var age = $("#userAge").val();
@@ -242,7 +247,7 @@
             });
         });
         
-    </script>
+    </script> -->
 
     <script>
         var countDownDate = new Date("May 30, 2020 00:00:00").getTime();
