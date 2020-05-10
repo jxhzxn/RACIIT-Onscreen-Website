@@ -117,10 +117,19 @@
                         </select>
                         <input class="form-element" name="userEmail" type="email" placeholder="Email Address" required>
                         <input class="form-element" name="userContact" type="number" placeholder="Contact Number" required>
-                        <label class="custom-file-upload">
+                        <!-- <label class="custom-file-upload">
                         <i class="fas fa-video"></i> Upload Video
                             <input type="file" name="videoUpload" id="videoUpload" required>
-                        </label>
+                        </label> -->
+
+                        <div class="file-upload">
+                            <input class="file-upload__input" type="file" name="videoUpload" id="myFile" required>
+                            <div class="up-label">
+                            <span class="file-upload__label"></span>
+                            </div>
+                            <button class="file-upload__button" type="button"><i class="fas fa-video"></i> Upload Video</button>
+                        </div>
+
                             <div class="checkbox-elements">
                                 <input type="checkbox" id="checkBox" value=1 required>
                                 <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
@@ -186,6 +195,8 @@
 
         </div>
     </div>
+
+    <a class="go-to-top-btn" href="#"><i class="fas fa-chevron-circle-up"></i></a>
  
     <footer class="footer">
         <div class="footer-container">
@@ -202,6 +213,42 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+
+Array.prototype.forEach.call(
+  document.querySelectorAll(".file-upload__button"),
+  function(button) {
+    const hiddenInput = button.parentElement.querySelector(
+      ".file-upload__input"
+    );
+    const label = button.parentElement.querySelector(".file-upload__label");
+    const defaultLabelText = "No file(s) selected";
+
+    // Set default text for label
+    label.textContent = defaultLabelText;
+    label.title = defaultLabelText;
+
+    button.addEventListener("click", function() {
+      hiddenInput.click();
+    });
+
+    hiddenInput.addEventListener("change", function() {
+      const filenameList = Array.prototype.map.call(hiddenInput.files, function(
+        file
+      ) {
+        return file.name;
+      });
+
+      label.textContent = filenameList.join(", ") || defaultLabelText;
+      label.title = label.textContent;
+    });
+  }
+);
+
+
+    </script>
 
 
   
