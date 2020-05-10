@@ -105,7 +105,7 @@
             <div class="intro-form-container">
                     <form id="form-id" action="./backend/index.php" method="POST" class="form-elements-container" required enctype="multipart/form-data">
                         <input class="form-element" name="userName" type="text" placeholder="Full Name" required>
-                        <input class="form-element" name="userNIC" type="text" placeholder="NIC no." required>
+                        <input class="form-element" name="userNIC" type="text" placeholder="Your / Parent's NIC no." required>
                         <input class="form-element" name="userAge" type="number" placeholder="Age" required>
                         <select class="form-element" name="userTheme" required>
                             <option value="" disabled selected hidden>Select the Theme</option>
