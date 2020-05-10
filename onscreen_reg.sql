@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 20, 2020 at 08:53 AM
+-- Generation Time: May 10, 2020 at 03:32 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -31,7 +31,9 @@ SET time_zone = "+00:00";
 CREATE TABLE `competitors` (
   `cid` int(10) NOT NULL,
   `cname` varchar(50) DEFAULT NULL,
+  `cnic` varchar(15) NOT NULL,
   `cage` int(5) DEFAULT NULL,
+  `ctheme` varchar(50) NOT NULL,
   `cemail` varchar(50) DEFAULT NULL,
   `ccontact` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -54,7 +56,7 @@ ALTER TABLE `competitors`
 -- AUTO_INCREMENT for table `competitors`
 --
 ALTER TABLE `competitors`
-  MODIFY `cid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=225;
+  MODIFY `cid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=306;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
