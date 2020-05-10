@@ -370,9 +370,11 @@ input[type="file"] {
     white-space: nowrap;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: white;
+    /* color: white; */
     letter-spacing: 1px;
-    background-color: rgba(190, 11, 17, 0.726);
+    background-color: white;
+    color: rgb(190, 11, 17);
+
   }
 
 .form-element{
