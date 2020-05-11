@@ -477,6 +477,8 @@ option{
     color: white;
     text-align: center;
     transition: all 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -939,10 +941,9 @@ a{
     width: 30%;
 }
 
-.prize-box:hover{
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+/* .prize-box:hover{
     transform: scale(1.08);
-}
+} */
 
 .com-mem-container{
     border-color: white;

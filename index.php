@@ -21,6 +21,10 @@
 
          <!-- SweetAlert CDN -->
          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+         <script src="./js/anime.min.js"></script>
+         <!-- <script src="./js/text-anime.js"></script> -->
+
+
     </head>
     <body>
      
@@ -84,13 +88,13 @@
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular Video</p>
+                    <p  id="prizes" class="prize-text prize-1"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative Video</p>
+                    <p  id="prizes" class="prize-text prize-2"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative Video</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each topic</p>
+                    <p  id="prizes" class="prize-text prize-3"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each topic</p>
                 </div>
             </div>
         </div>
@@ -213,6 +217,58 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    // anime({ 
+    // targets: '.prize-1', 
+    // translateY: [ 
+    //     {value: 30, duration: 1000,},
+    //     {value: 0, duration: 2000, delay: 2000}, 
+    //     {value: -30, duration: 3000} 
+    // ], 
+    // loop: true, 
+    // });
+
+    // anime({ 
+    // targets: '.prize-2', 
+    // translateY: [ 
+    //     {value: 0, duration: 1000},
+    //     {value: -30, duration: 2000}, 
+    //     {value: 0, duration: 1000} 
+    // ], 
+    // loop: true, 
+    // });
+
+    anime({ 
+    targets: '.prize-1', 
+    scale: [
+        {value: 1.08, duration: 3000},
+        {value: 1.22, duration: 2000},
+        {value: 0.97, duration: 2500},
+    ],
+    loop: true, 
+    });
+
+    anime({ 
+    targets: '.prize-2', 
+    scale: [
+        {value: 1.15, duration: 2000},
+        {value: 0.98, duration: 3500},
+        {value: 1.22, duration: 3500},
+    ],
+    loop: true, 
+    });
+
+    anime({ 
+    targets: '.prize-3', 
+    scale: [
+        {value: 1.12, duration: 3500},
+        {value: 1.22, duration: 2500},
+        {value: 0.92, duration: 3750},
+    ],
+    loop: true, 
+    });
+    </script>
 
 
     <script>

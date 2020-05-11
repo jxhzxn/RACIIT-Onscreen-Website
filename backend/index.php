@@ -26,7 +26,6 @@ if(empty($name) or empty($age) or empty($email) or empty($contact) or empty($the
 
 ?>
 
-
 <html>
     <head>
         <title>Registered List</title>
