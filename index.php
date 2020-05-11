@@ -150,7 +150,10 @@
     <div class="third-container">
         <div class="rules-container">
             <div class="rules-head-container">
+
                 <p  id="rules" class="rules-text">Rules <span class="red">&</span> Regulations</p>
+                    <div class="test-box"></div>
+
             </div>
             <div class="rules-desc-container">
                 <p class="rules-desc">
@@ -229,15 +232,15 @@
     // loop: true, 
     // });
 
-    // anime({ 
-    // targets: '.prize-2', 
-    // translateY: [ 
-    //     {value: 0, duration: 1000},
-    //     {value: -30, duration: 2000}, 
-    //     {value: 0, duration: 1000} 
-    // ], 
-    // loop: true, 
-    // });
+    anime({ 
+    targets: '.test-box', 
+    translateX: [ 
+        {value: 300, duration: 2000},
+        {value: -300, duration: 2000},
+        {value: -100, duration: 2000},
+    ], 
+    loop: true, 
+    });
 
     anime({ 
     targets: '.prize-1', 
@@ -268,6 +271,7 @@
     ],
     loop: true, 
     });
+
     </script>
 
 
