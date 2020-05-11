@@ -246,7 +246,7 @@
     targets: '.prize-1', 
     scale: [
         {value: 1.08, duration: 3000},
-        {value: 1.22, duration: 2000},
+        {value: 1.18, duration: 2000},
         {value: 0.97, duration: 2500},
     ],
     loop: true, 
@@ -257,7 +257,7 @@
     scale: [
         {value: 1.15, duration: 2000},
         {value: 0.98, duration: 3500},
-        {value: 1.22, duration: 3500},
+        {value: 1.18, duration: 3500},
     ],
     loop: true, 
     });
@@ -266,7 +266,7 @@
     targets: '.prize-3', 
     scale: [
         {value: 1.12, duration: 3500},
-        {value: 1.22, duration: 2500},
+        {value: 1.18, duration: 2500},
         {value: 0.92, duration: 3750},
     ],
     loop: true, 

@@ -1075,6 +1075,14 @@ input[type=number] {
         background-color: black;
     }
 
+    .test-box{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(190, 11, 16);
+        margin-top: -60px;
+        display: none;
+    }
+
     .second-video{
         display: none;
     }
@@ -1559,6 +1567,14 @@ input[type=number] {
 
     body{
         background-color: black;
+    }
+
+    .test-box{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(190, 11, 16);
+        margin-top: -60px;
+        display: none;
     }
 
     .file-upload__label {
