@@ -250,6 +250,20 @@
     loop: true,
     });
 
+    // anime({ 
+    // targets: '.test-box-reg', 
+    // translateY: [ 
+    //     {value: 58, duration: 2000},
+    //     {value: 142, duration: 2000},
+    //     {value: 236, duration: 2000},
+    //     {value: 330, duration: 2000},
+    //     {value: 424, duration: 2000},
+    //     {value: 518, duration: 2000},
+    //     {value: 0, duration: 2000},
+    // ],
+    // loop: true,
+    // });
+
 
     anime({ 
     targets: '.test-box-contact', 
@@ -301,27 +315,7 @@
     loop: true, 
     });
 
-    // anime({ 
-    // targets: '.com-mem-name-1', 
-    // opacity: [
-    //     {value: 1, duration: 6000},
-    //     {value: 0.5, duration: 1000},
-    //     {value: 1, duration: 2000},
-    // ],
-    // loop: true,
-    // });
-
-    // anime({ 
-    // targets: '.com-mem-name-2', 
-    // opacity: [
-    //     {value: 1, duration: 7000},
-    //     {value: 0.5, duration: 1000},
-    //     {value: 1, duration: 6000},
-    //     {value: 0.5, duration: 2000},
-    //     {value: 1, duration: 5000},
-    // ],
-    // loop: true,
-    // });
+  
 
     anime({ 
     targets: '.globe-icon',
