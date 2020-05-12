@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Onscreen'20</title>
+
         <link rel="icon" href="./assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- comment -->
@@ -56,6 +57,7 @@
         <div class="about-container">
             <div id="about" class="about-heading-container">
                 <p class="rules-text">About OnScreen <span class="red">2.0</span></p>
+                <div class="test-box-about"></div>
             </div>
             <div class="about-other-container">
                 <div class="about-logo-container">
@@ -113,11 +115,11 @@
                         <input class="form-element" name="userAge" type="number" placeholder="Age" required>
                         <select class="form-element" name="userTheme" required>
                             <option value="" disabled selected hidden>Select the Theme</option>
-                            <option value="Nutrition during crises">Nutrition during this time of crises</option>
+                            <option value="Nutrition During Crises">Nutrition during this time of crises</option>
                             <option value="Importance of Hygiene">Importance of Hygiene</option>
-                            <option value="Violence free home">A violence free home for the children</option>
-                            <option value="Going green">Going green</option>
-                            <option value="Mental health">Mental health</option>
+                            <option value="Violence Free Home">A violence free home for the children</option>
+                            <option value="Going Green">Going green</option>
+                            <option value="Mental Health">Mental health</option>
                         </select>
                         <input class="form-element" name="userEmail" type="email" placeholder="Email Address" required>
                         <input class="form-element" name="userContact" type="number" placeholder="Contact Number" required>
@@ -182,6 +184,7 @@
         <div class="committee-container">
             <div id="committee" class="committee-heading-container">
                 <p class="rules-text">Contact Us</p>
+                <div class="test-box-contact"></div>
             </div>
             <div class="com-mem-container">
                 <div class="com-mem">
@@ -198,10 +201,13 @@
                 </div>
             </div>
 
-           
+            </div>
 
         </div>
+       
+        
     </div>
+  
 
     <a class="go-to-top-btn" href="#"><i class="fas fa-chevron-circle-up"></i></a>
  
@@ -235,9 +241,32 @@
     anime({ 
     targets: '.test-box', 
     translateX: [ 
+        {value: 300, duration: 2000},
+        {value: -300, duration: 2500},
         {value: 300, duration: 2500},
-        {value: -300, duration: 3000},
-        {value: -100, duration: 2000},
+        {value: -100, duration: 1800},
+        {value: -300, duration: 1800},
+    ], 
+    loop: true,
+    });
+
+
+    anime({ 
+    targets: '.test-box-contact', 
+    translateX: [ 
+        {value: 140, duration: 2000},
+        {value: -140, duration: 1800},
+        {value: 0, duration: 2500},
+    ], 
+    loop: true,
+    });
+
+    anime({ 
+    targets: '.test-box-about', 
+    translateX: [ 
+        {value: 250, duration: 2000},
+        {value: -250, duration: 1800},
+        {value: 0, duration: 2500},
     ], 
     loop: true,
     });
