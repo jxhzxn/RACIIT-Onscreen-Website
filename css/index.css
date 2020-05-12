@@ -16,6 +16,10 @@ a{
     text-decoration: none;
 }
 
+.ded{
+    display: inline-block;
+}
+
 .test-box{
     width: 50px;
     height: 10px;

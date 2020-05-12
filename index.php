@@ -185,13 +185,13 @@
             </div>
             <div class="com-mem-container">
                 <div class="com-mem">
-                    <p class="com-mem-name">Arshad Najudeen</p>
+                    <p class="com-mem-name com-mem-name-1">Arshad Najudeen</p>
                     <p class="com-post">Communications Coordinator, <br>World Vision Lanka</p>
                     <p class="com-mail"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Arshad_Najumudeen@wvi.org</p>
                     <p class="com-phone"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;077 957 2295</p>
                 </div>
                 <div class="com-mem">
-                    <p class="com-mem-name">Zuha Mursheed</p>
+                    <p class="com-mem-name com-mem-name-2">Zuha Mursheed</p>
                     <p class="com-post">Project Chairperson, <br>IIT</p>
                     <p class="com-mail"><i class="fas fa-envelope"></i>&nbsp;&nbsp;zuha.2018105@iit.ac.lk</p>
                     <p class="com-phone"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;076 693 4555</p>
@@ -235,18 +235,18 @@
     anime({ 
     targets: '.test-box', 
     translateX: [ 
-        {value: 300, duration: 2000},
-        {value: -300, duration: 2000},
+        {value: 300, duration: 2500},
+        {value: -300, duration: 3000},
         {value: -100, duration: 2000},
     ], 
-    loop: true, 
+    loop: true,
     });
 
     anime({ 
     targets: '.prize-1', 
     scale: [
         {value: 1.08, duration: 3000},
-        {value: 1.18, duration: 2000},
+        {value: 1.10, duration: 2000},
         {value: 0.97, duration: 2500},
     ],
     loop: true, 
@@ -255,9 +255,9 @@
     anime({ 
     targets: '.prize-2', 
     scale: [
-        {value: 1.15, duration: 2000},
-        {value: 0.98, duration: 3500},
-        {value: 1.18, duration: 3500},
+        {value: 0.98, duration: 2000},
+        {value: 0.92, duration: 3500},
+        {value: 1.10, duration: 3500},
     ],
     loop: true, 
     });
@@ -265,12 +265,108 @@
     anime({ 
     targets: '.prize-3', 
     scale: [
-        {value: 1.12, duration: 3500},
-        {value: 1.18, duration: 2500},
+        {value: 0.98, duration: 3500},
+        {value: 1.10, duration: 2500},
         {value: 0.92, duration: 3750},
     ],
     loop: true, 
     });
+
+    // anime({ 
+    // targets: '.com-mem-name-1', 
+    // opacity: [
+    //     {value: 1, duration: 6000},
+    //     {value: 0.5, duration: 1000},
+    //     {value: 1, duration: 2000},
+    // ],
+    // loop: true,
+    // });
+
+    // anime({ 
+    // targets: '.com-mem-name-2', 
+    // opacity: [
+    //     {value: 1, duration: 7000},
+    //     {value: 0.5, duration: 1000},
+    //     {value: 1, duration: 6000},
+    //     {value: 0.5, duration: 2000},
+    //     {value: 1, duration: 5000},
+    // ],
+    // loop: true,
+    // });
+
+    anime({ 
+    targets: '.globe-icon',
+    rotate: [
+        {value: 0, duration: 1000,},
+        {value: 360, duration: 1000,delay:13000},
+        {value: 360, duration: 1000,delay:2000},
+        
+    ],
+    loop: true,
+    });
+
+    anime({ 
+    targets: '.twitter-icon',
+    rotate: [
+        {value: 0, duration: 1000,},
+        {value: 360, duration: 1000,delay:9000},
+        {value: 360, duration: 1000,delay:6000},
+        
+    ],
+    loop: true,
+    });
+
+    anime({ 
+    targets: '.ig-icon',
+    rotate: [
+        {value: 0, duration: 1000,},
+        {value: 360, duration: 1000,delay:5000},
+        {value: 360, duration: 1000,delay:3000},
+        
+    ],
+    loop: true,
+    });
+
+    anime({ 
+    targets: '.fb-icon',
+    rotate: [
+        {value: 0, duration: 1000,},
+        {value: 360, duration: 1000,delay:3000},
+        {value: 360, duration: 1000,delay:8000},
+        
+    ],
+    loop: true,
+    });
+
+    // anime({ 
+    // targets: '.twitter-icon', 
+    // translateX: [
+    //     {value: 0, duration: 2000,},
+    //     {value: -115, duration: 1000,},
+    //     {value: 0, duration: 1000,delay:9000},
+    // ],
+    // loop: true,
+    // });
+
+    // anime({ 
+    // targets: '.ig-icon', 
+    // translateX: [
+    //     {value: 0, duration: 3000,},
+    //     {value: -110, duration: 1000,},
+    //     {value: 0, duration: 1000,delay:8000},
+    // ],
+    // loop: true,
+    // });
+
+    // anime({ 
+    // targets: '.globe-icon', 
+    // translateX: [
+    //     {value: 0, duration: 4000,},
+    //     {value: -105, duration: 1000,},
+    //     {value: 0, duration: 1000,delay:7000},
+    // ],
+    // loop: true,
+    // });
 
     </script>
 
