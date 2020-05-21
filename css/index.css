@@ -1630,6 +1630,16 @@ input[type=number] {
         background-color: black;
     }
 
+    .second-container{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        color: white;
+        border-color: white;
+        /* border-style: solid; */
+        display: flex;
+        justify-content: center;
+    }
+
     .test-box{
         width: 50px;
         height: 10px;
@@ -1808,7 +1818,7 @@ input[type=number] {
         font-size: 18px;
         text-align: justify;
         line-height: 150%;
-        width: 380px;
+        width: 330px;
     }
 
     .rotaract-logo{
@@ -2059,6 +2069,7 @@ input[type=number] {
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin-top: -50px;
     }
 
     .com-mem{

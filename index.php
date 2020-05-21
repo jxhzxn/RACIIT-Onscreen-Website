@@ -113,14 +113,14 @@
                         <input class="form-element" name="userName" type="text" placeholder="Full Name" required>
                         <input class="form-element" name="userNIC" type="text" placeholder="Your / Parent's NIC no." required>
                         <input class="form-element" name="userAge" type="number" placeholder="Age" required>
-                        <select class="form-element" name="userTheme" required>
+                        <!-- <select class="form-element" name="userTheme" required>
                             <option value="" disabled selected hidden>Select the Theme</option>
                             <option value="Nutrition During Crises">Nutrition during this time of crises</option>
                             <option value="Importance of Hygiene">Importance of Hygiene</option>
                             <option value="Violence Free Home">A violence free home for the children</option>
                             <option value="Going Green">Going green</option>
                             <option value="Mental Health">Mental health</option>
-                        </select>
+                        </select> -->
                         <input class="form-element" name="userEmail" type="email" placeholder="Email Address" required>
                         <input class="form-element" name="userContact" type="number" placeholder="Contact Number" required>
                         <!-- <label class="custom-file-upload">
@@ -162,14 +162,14 @@
                     <ol class="rules-desc">
                         <li>This will be an open event for youth and children.</li>
                         <li>Applications will be called online and direct correspondence.</li>
-                        <li>Movies have to be based on three thematic areas; </li>
-                            <ul type="square">
+                        <li>Movie has to be based on the theme "Hidden Heroes". </li>
+                            <!-- <ul type="square">
                                 <li>Nutrition during this time of crises </li>
                                 <li>Importance of Hygiene </li>
                                 <li>A violence free home for the children</li>
                                 <li>Going green</li>
                                 <li>Mental health</li>
-                            </ul>
+                            </ul> -->
                         <li>Language – no restrictions.</li>
                         <li>Equipment to be used – mobile phones or entry-level video cameras are encouraged.</li>
                         <li>No humans or animals should be harmed during filming and also no environmental pollution at any cost.</li>
@@ -360,36 +360,6 @@
     ],
     loop: true,
     });
-
-    // anime({ 
-    // targets: '.twitter-icon', 
-    // translateX: [
-    //     {value: 0, duration: 2000,},
-    //     {value: -115, duration: 1000,},
-    //     {value: 0, duration: 1000,delay:9000},
-    // ],
-    // loop: true,
-    // });
-
-    // anime({ 
-    // targets: '.ig-icon', 
-    // translateX: [
-    //     {value: 0, duration: 3000,},
-    //     {value: -110, duration: 1000,},
-    //     {value: 0, duration: 1000,delay:8000},
-    // ],
-    // loop: true,
-    // });
-
-    // anime({ 
-    // targets: '.globe-icon', 
-    // translateX: [
-    //     {value: 0, duration: 4000,},
-    //     {value: -105, duration: 1000,},
-    //     {value: 0, duration: 1000,delay:7000},
-    // ],
-    // loop: true,
-    // });
 
     </script>
 

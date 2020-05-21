@@ -53,7 +53,7 @@
                         <p class="name"><?php echo $competitors['cname'] ?></p>
                         <p class="nic"><?php echo $competitors['cnic'] ?></p>
                         <p class="age"><?php echo $competitors['cage'] ?></p>
-                        <p class="theme"><?php echo $competitors['ctheme'] ?></p>
+                        <!-- <p class="theme"><?php echo $competitors['ctheme'] ?></p> -->
                         <p class="phone"><?php echo $competitors['ccontact'] ?></p>
                         <p class="email"><?php echo $competitors['cemail'] ?></p>
                     </div>
