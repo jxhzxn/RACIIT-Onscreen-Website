@@ -67,7 +67,7 @@
                 <div class="about-text-container">
                     <p class="about-text">Project <span class="red-on">Onscreen 2.0 </span>is an open competition for youth and children to showcase their talents on short film making. The Rotaract Club of IIT is conducting this project along with World Vision Lanka. This is the phase two of Project <span class="red-on">Onscreen 2.0</span>.
                         Phase one was carried out as two workshops on movie-making to help the young generation to create short films to address real-life problems that they see in our world. 
-                        This project is mainly focused on topics such as Child Rights, Agriculture, and Hygiene. TikTok will be used as the central platform to create short films. We hope to bring awareness and create an impact on society to change its perspective on real-life issues.
+                        This project is focused on topic "Hidden Heroes". TikTok will be used as the central platform to create short films. We hope to bring awareness and create an impact on society to change its perspective on real-life issues.
                         Since this the second phase as the third phase, we are expecting to conduct the "OnScreen - Short Film Festival." The ten best films from each thematic area will be selected and screened at the festival. 
                     </p>
                 </div>
