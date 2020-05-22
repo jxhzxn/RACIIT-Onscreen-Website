@@ -16,6 +16,31 @@ a{
     text-decoration: none;
 }
 
+.hidden-heroes-logo-box{
+    border-color: white;
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rules-text-hero{
+    font-size: 45px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.hidden-heroes-logo{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
 .ded{
     display: inline-block;
 }
@@ -221,6 +246,7 @@ a{
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    align-items: center;
 }
 
 .logo{
@@ -735,6 +761,8 @@ option{
 
 .red-on{
     color: rgb(190, 11, 16);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .sixth-container{
@@ -1120,6 +1148,16 @@ input[type=number] {
         background-color: black;
     }
 
+    .rules-text-hero{
+        font-size: 35px;
+        letter-spacing: -2px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        transition: all 0.3s;
+    }
+
     .test-box{
         width: 50px;
         height: 10px;
@@ -1160,6 +1198,7 @@ input[type=number] {
         /* padding-top: 50px; */
         justify-content: center;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .prize-text-container{
@@ -1630,6 +1669,22 @@ input[type=number] {
         background-color: black;
     }
 
+    .rules-text-hero{
+        font-size: 30px;
+        letter-spacing: -2px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        transition: all 0.3s;
+    }
+    
+    .hidden-heroes-logo{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+    }
+
     .second-container{
         font-family: 'Bebas Neue', cursive;
         font-size: 50px;
@@ -1692,6 +1747,7 @@ input[type=number] {
         /* padding-top: 50px; */
         justify-content: center;
         flex-direction: column;
+        margin-bottom: 60px;
     }
 
     .prize-text-container{

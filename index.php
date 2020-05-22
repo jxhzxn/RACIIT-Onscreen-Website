@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Onscreen'20</title>
+        <title>Onscreen 2.0</title>
 
         <link rel="icon" href="./assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,11 +65,16 @@
                     <img class="world-vision-logo" src="./assets/images/world-vision-logo.png">
                 </div>
                 <div class="about-text-container">
-                    <p class="about-text">Project OnScreen 2.0 is an open competition for youth and children to showcase their talents on short film making. The Rotaract Club of IIT is conducting this project along with World Vision Lanka. This is the phase two of Project OnScreen '20.
+                    <p class="about-text">Project <span class="red-on">OnScreen 2.0 </span>is an open competition for youth and children to showcase their talents on short film making. The Rotaract Club of IIT is conducting this project along with World Vision Lanka. This is the phase two of Project <span class="red-on">OnScreen 2.0</span>.
                         Phase one was carried out as two workshops on movie-making to help the young generation to create short films to address real-life problems that they see in our world. 
                         This project is mainly focused on topics such as Child Rights, Agriculture, and Hygiene. TikTok will be used as the central platform to create short films. We hope to bring awareness and create an impact on society to change its perspective on real-life issues.
-                        Since this the second phase as the third phase, we are expecting to conduct the "OnScreen - Short Film Festival." The ten best films from each thematic area will be selected and screened at the festival. </p>
+                        Since this the second phase as the third phase, we are expecting to conduct the "OnScreen - Short Film Festival." The ten best films from each thematic area will be selected and screened at the festival. 
+                    </p>
                 </div>
+            </div>
+            <div class="hidden-heroes-logo-box">
+                <p class="rules-text-hero">In collaboration with</p>
+                <img class="hidden-heroes-logo" src="assets/images/hidden-heroes.png">
             </div>
         </div>
     </div>
@@ -162,7 +167,7 @@
                     <ol class="rules-desc">
                         <li>This will be an open event for youth and children.</li>
                         <li>Applications will be called online and direct correspondence.</li>
-                        <li>Movie has to be based on the theme "Hidden Heroes". </li>
+                        <li>Movie has to be based on the theme <span class="red-on">"Hidden Heroes"</span>. </li>
                             <!-- <ul type="square">
                                 <li>Nutrition during this time of crises </li>
                                 <li>Importance of Hygiene </li>
