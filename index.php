@@ -65,10 +65,13 @@
                     <img class="world-vision-logo" src="./assets/images/world-vision-logo.png">
                 </div>
                 <div class="about-text-container">
-                    <p class="about-text">Project <span class="red-on">Onscreen 2.0 </span>is an open competition for youth and children to showcase their talents on short film making. The Rotaract Club of IIT is conducting this project along with World Vision Lanka. This is the phase two of Project <span class="red-on">Onscreen 2.0</span>.
-                        Phase one was carried out as two workshops on movie-making to help the young generation to create short films to address real-life problems that they see in our world. 
-                        This project is focused on the topic "Hidden Heroes". TikTok will be used as the central platform to create short films. We hope to bring awareness and create an impact on society to change its perspective on real-life issues.
-                        Since this the second phase as the third phase, we are expecting to conduct the "OnScreen - Short Film Festival." The ten best films from each thematic area will be selected and screened at the festival. 
+                    <p class="about-text">Project <span class="red-on">Onscreen 2.0</span> is an open competition for youth and children to showcase their talents on short film 
+                        making. The <span class="red-on">Rotaract Club of IIT</span> along with <span class="red-on">World Vision Lanka</span> is back with Onscreen phase two. Phase one was a workshop 
+                        carried out on movie-making to help the young generation to create short films to address real-life problems that they see 
+                        in our world. This project is focused on the topic <span class="red-on">"Hidden Heroes"</span>. Competitors will create short videos in Tik Tok to create 
+                        awareness for the real heroes who work day and night during the pandemic. We hope to create awareness for our hidden heroes 
+                        behind the mask who are currently risking their lives for us . Lucky winners will win exciting cash prices. Do register with your 
+                        very own Tik Tok video to stand a chance to win.
                     </p>
                 </div>
             </div>
@@ -91,17 +94,17 @@
         <div class="rules-container">
         <div class="rules-head-container">
                 <p  id="prizes" class="rules-text">Prizes</p>
-                <p  class="rules-text-desc">The Winners of Onscreen 2.0 will Receive Cash Prizes as Follows</p>
+                <p  class="rules-text-desc">The Winners of Onscreen 2.0 will Receive Cash Prizes as Follows <br/>for both the categories <br/>'The Most Creative' <span class="red-on">&</span> 'The Most Popular'</p>
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text prize-1"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Popular Video</p>
+                    <p  id="prizes" class="prize-text prize-1">1st Place<br/><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000</p>
                 </div>
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text prize-2"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000<br></span>Overall most <br>Creative Video</p>
+                    <p  id="prizes" class="prize-text prize-2">2nd Place<br/><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>15,000<br></p>
                 </div>
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text prize-3"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></span>Winner from <br>each topic</p>
+                    <p  id="prizes" class="prize-text prize-3">3rd Place<br/><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></p>
                 </div>
             </div>
         </div>
@@ -176,6 +179,7 @@
                                 <li>Mental health</li>
                             </ul> -->
                         <li>Language – no restrictions.</li>
+                        <li>Six cash prizes will be awarded for the categories 'The Most Creative' & 'The Most Popular'.</li>
                         <li>Equipment to be used – mobile phones or entry-level video cameras are encouraged.</li>
                         <li>No humans or animals should be harmed during filming and also no environmental pollution at any cost.</li>
                         <li>TikTok will be used as the leading platform to create the movies.</li>
