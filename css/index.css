@@ -16,6 +16,27 @@ a{
     text-decoration: none;
 }
 
+#progress{
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+    border: 3px solid white;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#progress span{
+    position: relative;
+    top: -22px;
+}
+
+.progress{
+    width: 0%;
+    height: 25px;
+    background: rgb(190, 11, 16);
+}
+
 .hidden-heroes-logo-box{
     border-color: white;
     /* border-style: solid; */
@@ -1667,6 +1688,16 @@ input[type=number] {
 
     body{
         background-color: black;
+    }
+
+    #progress{
+        width: 80%;
+        height: 30px;
+        border-radius: 3px;
+        border: 3px solid white;
+        margin: 10px auto;
+        text-align: center;
+        margin-top: 20px;
     }
 
     .rules-text-hero{

@@ -2,12 +2,20 @@
     <head>
         <title>Onscreen 2.0</title>
 
+        <meta property="og:url"                content="http://onscreen.lk" />
+        <meta property="og:type"               content="Entertainment" />
+        <meta property="og:title"              content="Onscreen 2.0" />
+        <meta property="og:description"        content="Rotaract Club of IIT along with World Vision Lanka is back at it again with Project Onscreen 2.0!" />
+        <meta property="og:image"              content="https://scontent.fcmb1-1.fna.fbcdn.net/v/t1.0-9/p843x403/100997203_3172003166177606_239436837544787968_o.jpg?_nc_cat=100&_nc_sid=730e14&_nc_oc=AQk89RikLaQ8YBc5fg2d1VmvILlzf0JrQiIzzOWaARuFsI_jEKi4PkckrCzgQPl53ao&_nc_ht=scontent.fcmb1-1.fna&_nc_tp=6&oh=e9612afa5a5be1375b9652af51238067&oe=5EF3D3E1" />
+
         <link rel="icon" href="./assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- comment -->
 
         <!-- External CSS -->
         <link rel="stylesheet" href="./css/index.css">
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 
         <!-- fontAwesome CDN -->
         <link rel="stylesheet" href="./css/all.min.css">
@@ -18,6 +26,7 @@
 
          <!-- jQuery CDN -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
 
 
          <!-- SweetAlert CDN -->
@@ -117,10 +126,10 @@
                 <p id="reg-form" class="rules-text">Register Now</p>
             </div>
             <div class="intro-form-container">
-                    <form id="form-id" action="./backend/index.php" method="POST" class="form-elements-container" required enctype="multipart/form-data">
-                        <input class="form-element" name="userName" type="text" placeholder="Full Name" required>
-                        <input class="form-element" name="userNIC" type="text" placeholder="Your / Parent's NIC no." required>
-                        <input class="form-element" name="userAge" type="number" placeholder="Age" required>
+                    <form id="form-id" onsubmit="return false" action="./backend/index.php" method="POST" class="form-elements-container" enctype="multipart/form-data">
+                        <input class="form-element" id="userName" name="userName" type="text" placeholder="Full Name">
+                        <input class="form-element" id="userNIC" name="userNIC" type="text" placeholder="Your / Parent's NIC no.">
+                        <input class="form-element" id="userAge" name="userAge" type="number" placeholder="Age">
                         <!-- <select class="form-element" name="userTheme" required>
                             <option value="" disabled selected hidden>Select the Theme</option>
                             <option value="Nutrition During Crises">Nutrition during this time of crises</option>
@@ -129,27 +138,35 @@
                             <option value="Going Green">Going green</option>
                             <option value="Mental Health">Mental health</option>
                         </select> -->
-                        <input class="form-element" name="userEmail" type="email" placeholder="Email Address" required>
-                        <input class="form-element" name="userContact" type="number" placeholder="Contact Number" required>
+                        <input class="form-element" id="userEmail" name="userEmail" type="email" placeholder="Email Address">
+                        <input class="form-element" id="userContact" name="userContact" type="number" placeholder="Contact Number">
                         <!-- <label class="custom-file-upload">
                         <i class="fas fa-video"></i> Upload Video
                             <input type="file" name="videoUpload" id="videoUpload" required>
                         </label> -->
 
                         <div class="file-upload">
-                            <input class="file-upload__input" type="file" name="videoUpload" id="myFile" required>
+                            <input class="file-upload__input" type="file" name="videoUpload" id="myFile" accept=".mp4"  required>
                             <div class="up-label">
                             <span class="file-upload__label"></span>
                             </div>
-                            <button class="file-upload__button" type="button"><i class="fas fa-video"></i> Upload Video</button>
+                            <button class="file-upload__button" id="upload-btn" type="button"><i class="fas fa-video"></i> Upload Video</button>
+                        </div>
+                        <div id="progress">
+                            <div class="progress">
+                                <span></span>
+                            </div>
+                            
                         </div>
 
                             <div class="checkbox-elements">
-                                <input type="checkbox" id="checkBox" value=1 required>
+                                <input type="checkbox" id="checkBox" value=1 >
                                 <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
                             </div>
                         <button type="submit" class="reg-btn" id="regbtn">Register</button>
                     </form>
+
+                   
             </div>
         </div>
     </div>
@@ -183,6 +200,7 @@
                         <li>Equipment to be used – mobile phones or entry-level video cameras are encouraged.</li>
                         <li>No humans or animals should be harmed during filming and also no environmental pollution at any cost.</li>
                         <li>TikTok will be used as the leading platform to create the movies.</li>
+                        <li>All submissions should uphold the values of protecting children and ensure their safety.</li>
                     </ol>
                     </p>
             </div>
@@ -235,6 +253,94 @@
             </div>
         </div>
     </footer>
+
+    <script>
+     $(document).ready(function(){
+        $("#regbtn").on('click', function(){
+            if(document.getElementById("userName").value.length == 0){
+                Swal.fire(
+                          "<div>Enter your Name</div>",
+                          "",
+                          'error'
+                        );
+            }else if( document.getElementById("userNIC").value.length == 0){
+                Swal.fire(
+                          "<div>Enter your NIC</div>",
+                          "",
+                          'error'
+                        );
+            }else if( document.getElementById("userAge").value.length == 0 ){
+                Swal.fire(
+                          "<div>Enter your Age</div>",
+                          "",
+                          'error'
+                        );
+            }else if(document.getElementById("userEmail").value.length == 0){
+                Swal.fire(
+                          "<div>Enter your Email</div>",
+                          "",
+                          'error'
+                        );
+            }else if(document.getElementById("userContact").value.length == 0 ){
+                Swal.fire(
+                          "<div>Enter your Contact Number</div>",
+                          "",
+                          'error'
+                        );
+            }else if( document.getElementById("myFile").files.length == 0){
+                Swal.fire(
+                          "<div>Upload the File</div>",
+                          "",
+                          'error'
+                        );
+            }else if( document.getElementById("checkBox").value == 0){
+                Swal.fire(
+                          "<div>Read the Rules and Regulations</div>",
+                          "",
+                          'error'
+                        );
+            }else{
+            $("#form-id").ajaxSubmit({
+                beforeSubmit: function(formData, formObject, formOptions){
+                    // $(".progress").css('display', 'none');
+                    // $("#progress").children("span").html(percentComplete+' %');
+                },
+
+                beforeSend: function(){
+                    // $(".progress").css('display', 'none');
+                    // $("#progress").children("span").html(percentComplete+' %');
+                },
+
+                uploadProgress: function(event, position, total, percentComplete){
+                    $(".progress").css('width', percentComplete+'%');
+                    $("#progress").children("span").html(percentComplete+' %');
+
+                },
+
+                success: function(data){
+                    if($.trim(data)==2){
+                        Swal.fire(
+                          "<div>Registration Successful</div>",
+                          "",
+                          'success'
+                        );
+                    }else if($.trim(data)==1){
+                        Swal.fire(
+                          "<div>Registration Successful</div>",
+                          "",
+                          'success'
+                        ).then((result) => {
+                            // Reload the Page
+                            location.reload();
+                            });
+                    }
+                   
+                }
+            });
+            }
+        });
+     });
+    </script>
 
     <script>
     // anime({ 
@@ -412,54 +518,10 @@ Array.prototype.forEach.call(
   
 
 
-    <!-- <script type="text/javascript">
-        $("#regbtn").click(function(form){
-            var name = $("#userName").val();
-            var age = $("#userAge").val();
-            var email = $("#userEmail").val();
-            var contact = $("#userContact").val();
-            var theme = $("#theme").val();
-
-            $.ajax({
-                method: "POST",
-                url: "./backend/index.php",
-                data: {
-                    name : name,
-                    age : age,
-                    email : email,
-                    contact : contact,
-                    theme : theme
-                },
-
-                success: function(data){
-                    if($.trim(data)==1){
-                        Swal.fire(
-                          "<div>Registration Successful</div>",
-                          "",
-                          'success'
-                        );
-                        document.querySelector("#reg-form").outerHTML="<p id='reg-form' class='rules-text' hidden>Register Now<span class='red'>!</span></p>";
-                        document.querySelector("#form-id").outerHTML="<p id='reg-form' class='rules-text'> Already Registered<span class='red'>!</span></p>"
-                        // window.location.href="./index.php";
-                    }else if($.trim(data)==2){
-                        Swal.fire(
-                          "<div class='red-alert'>Please fill up everything</div>",
-                          "",
-                          'error'
-                        );
-                    }
-                },
-
-                error: function(data){
-                    alert("Some error has occured");
-                }
-            });
-        });
-        
-    </script> -->
-
+   
+            
     <script>
-        var countDownDate = new Date("May 30, 2020 00:00:00").getTime();
+        var countDownDate = new Date("Jun 02, 2020 00:00:00").getTime();
 
         var x = setInterval(function(){
             var now = new Date().getTime();
