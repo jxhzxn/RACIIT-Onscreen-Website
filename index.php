@@ -90,11 +90,11 @@
         </div>
     </div>
 
-    <div class="third-container">
+    <!-- <div class="third-container">
         <div class="rules-container">
         <div class="rules-head-container">
                 <p  id="prizes" class="rules-text">Prizes</p>
-                <p  class="rules-text-desc">The Winners of Onscreen 2.0 will Receive Cash Prizes as Follows <br/>for both the categories <br/>'The Most Creative' <span class="red-on">&</span> 'The Most Popular'</p>
+                <p  class="rules-text-desc">The Winners of Onscreen 2.0 will Receive Cash Prizes <br/>for both the categories <br/>'The Most Creative' <span class="red-on">&</span> 'The Most Popular'</p>
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="second-container">
