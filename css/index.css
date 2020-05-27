@@ -20,10 +20,10 @@ a{
     width: 500px;
     height: 30px;
     border-radius: 3px;
-    border: 3px solid white;
+    border: 3px solid rgb(190, 11, 16);
     margin: 10px auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #progress span{
@@ -1694,7 +1694,7 @@ input[type=number] {
         width: 80%;
         height: 30px;
         border-radius: 3px;
-        border: 3px solid white;
+        border: 3px solid rgb(190, 11, 16);
         margin: 10px auto;
         text-align: center;
         margin-top: 20px;
