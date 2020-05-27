@@ -2235,6 +2235,125 @@ input[type=number] {
 
 }
 
+@media(max-width:380px){
+    .rules-text{
+        font-size: 40px;
+        letter-spacing: -2px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        transition: all 0.3s;
+    }
+
+    
+    .red{
+        color: rgb(190, 11, 16);
+        font-size: 55px;
+    }
+
+    .count-down{
+        border-color: white;
+        /* border-style: solid; */
+        color: white;
+        width: 90%;
+        height: 550px;
+        background-color: rgb(14, 14, 14);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        /* color: rgba(220, 20, 60, 0.651); */
+        /* font-family: 'Poppins', sans-serif; */
+        padding: 60px 60px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .testing-head{
+        font-size: 35px;
+        letter-spacing: -2px;
+        line-height: 90%;
+        transition: all 0.3s;
+    }
+
+    .testing{
+        color: rgb(190, 11, 16);
+        font-size: 38px;
+        letter-spacing: -5px;
+    }
+}
+
+@media(max-width:330px){
+    .rules-text{
+        font-size: 40px;
+        letter-spacing: -2px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        transition: all 0.3s;
+    }
+
+    
+    .red{
+        color: rgb(190, 11, 16);
+        font-size: 55px;
+    }
+
+    .count-down{
+        border-color: white;
+        /* border-style: solid; */
+        color: white;
+        width: 90%;
+        height: 550px;
+        background-color: rgb(14, 14, 14);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        /* color: rgba(220, 20, 60, 0.651); */
+        /* font-family: 'Poppins', sans-serif; */
+        padding: 60px 60px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .testing-head{
+        font-size: 30px;
+        letter-spacing: -2px;
+        line-height: 90%;
+        transition: all 0.3s;
+    }
+
+    .testing{
+        color: rgb(190, 11, 16);
+        font-size: 35px;
+        letter-spacing: -5px;
+    }
+
+    .about-text{
+        color: white;
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 150%;
+        width: 280px;
+    }
+
+    .com-mail{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        transition: all 0.3s;
+        margin-top: 50px;
+        letter-spacing: 1;
+    }
+}
+
 .no-name{
     color: white;
     font-size: 30px;
