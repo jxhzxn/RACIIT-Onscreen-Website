@@ -1,3 +1,10 @@
+<?php
+session_start();
+$jx = $_SESSION['jx'];
+if(empty($jx)){
+    echo 'Stop';
+}else{
+?>
 <html>
     <head>
         <title>Videos</title>
@@ -84,6 +91,10 @@
    
     
 </html>
+
+<?php
+}
+?>
 
 
 
