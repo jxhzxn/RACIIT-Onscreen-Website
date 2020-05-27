@@ -1,11 +1,11 @@
 <html>
     <head>
-        <title>Registered List</title>
+        <title>Videos</title>
         <link rel="icon" href="../assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- External CSS -->
-        <link rel="stylesheet" href="../css/123abc.css">
+        <link rel="stylesheet" href="../css/videos.css">
 
         <!-- fontAwesome CDN -->
         <link rel="stylesheet" href="../css/all.min.css">
@@ -38,8 +38,9 @@
     <div class="second-container">
         <div class="form-container">
             <div class="reg-head-container">
-                <p class="rules-text">Registered List - <span class="red"><?php echo $rc; ?></span></p>
+                <p class="rules-text">Videos - <span class="red"><?php echo $rc; ?></span></p>
             </div>
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
             <div class="intro-form-container">
 
             <?php
@@ -49,20 +50,25 @@
             ?>
 
                     <div class="reg-element">
-                        <p class="num"><?php echo $i?>.</p>
+                    <p class="num"><?php echo $i?>.</p>
                         <p class="name"><?php echo $competitors['cname'] ?></p>
-                        <p class="nic"><?php echo $competitors['cnic'] ?></p>
-                        <p class="age"><?php echo $competitors['cage'] ?></p>
-                        <p class="phone"><?php echo $competitors['ccontact'] ?></p>
-                        <p class="email"><?php echo $competitors['cemail'] ?></p>
-                    </div>
+                        <p class="nic"><?php echo $competitors['cnic'] ?></p>   
+                   
+                    <div class="up-video">
+                        <video class="video-view" controls muted>
+                        <source src="../uploaded-videos/<?php echo $competitors['cnic'] ?>.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+                </div>
+                    
 
             <?php
                 $i++;
                 }
             ?>           
 
-                    
+                  </form>  
             </div>
         </div>
     </div>
@@ -74,6 +80,82 @@
 
 
   
+    </body>
+   
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+   
+        
+    
+
+ 
+    
+     
+       
+        
     </body>
    
     
