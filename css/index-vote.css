@@ -16,51 +16,6 @@ a{
     text-decoration: none;
 }
 
-#progress{
-    width: 500px;
-    height: 30px;
-    border-radius: 3px;
-    border: 3px solid rgb(190, 11, 16);
-    margin: 10px auto;
-    text-align: center;
-    margin-top: 40px;
-}
-
-#progress span{
-    position: relative;
-    top: -22px;
-}
-
-.progress{
-    width: 0%;
-    height: 25px;
-    background: rgb(190, 11, 16);
-}
-
-.hidden-heroes-logo-box{
-    border-color: white;
-    /* border-style: solid; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.rules-text-hero{
-    font-size: 45px;
-    letter-spacing: -2px;
-    font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: center;
-    transition: all 0.3s;
-}
-
-.hidden-heroes-logo{
-    width: 250px;
-    height: 250px;
-    background-color: black;
-}
 
 .ded{
     display: inline-block;
@@ -267,7 +222,6 @@ a{
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    align-items: center;
 }
 
 .logo{
@@ -332,6 +286,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
 }
 
 input[type="file"] {
@@ -781,8 +736,6 @@ option{
 
 .red-on{
     color: rgb(190, 11, 16);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
 
 .sixth-container{
@@ -1168,16 +1121,6 @@ input[type=number] {
         background-color: black;
     }
 
-    .rules-text-hero{
-        font-size: 35px;
-        letter-spacing: -2px;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        text-align: center;
-        transition: all 0.3s;
-    }
-
     .test-box{
         width: 50px;
         height: 10px;
@@ -1218,7 +1161,6 @@ input[type=number] {
         /* padding-top: 50px; */
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 50px;
     }
 
     .prize-text-container{
@@ -1689,42 +1631,6 @@ input[type=number] {
         background-color: black;
     }
 
-    #progress{
-        width: 80%;
-        height: 30px;
-        border-radius: 3px;
-        border: 3px solid rgb(190, 11, 16);
-        margin: 10px auto;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .rules-text-hero{
-        font-size: 30px;
-        letter-spacing: -2px;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        text-align: center;
-        transition: all 0.3s;
-    }
-    
-    .hidden-heroes-logo{
-        width: 200px;
-        height: 200px;
-        background-color: black;
-    }
-
-    .second-container{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 50px;
-        color: white;
-        border-color: white;
-        /* border-style: solid; */
-        display: flex;
-        justify-content: center;
-    }
-
     .test-box{
         width: 50px;
         height: 10px;
@@ -1777,7 +1683,6 @@ input[type=number] {
         /* padding-top: 50px; */
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 60px;
     }
 
     .prize-text-container{
@@ -1904,7 +1809,7 @@ input[type=number] {
         font-size: 18px;
         text-align: justify;
         line-height: 150%;
-        width: 330px;
+        width: 380px;
     }
 
     .rotaract-logo{
@@ -2155,7 +2060,6 @@ input[type=number] {
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-top: -50px;
     }
 
     .com-mem{
@@ -2232,125 +2136,6 @@ input[type=number] {
         font-size: 60px;
     }
 
-}
-
-@media(max-width:380px){
-    .rules-text{
-        font-size: 40px;
-        letter-spacing: -2px;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        text-align: center;
-        transition: all 0.3s;
-    }
-
-    
-    .red{
-        color: rgb(190, 11, 16);
-        font-size: 55px;
-    }
-
-    .count-down{
-        border-color: white;
-        /* border-style: solid; */
-        color: white;
-        width: 90%;
-        height: 550px;
-        background-color: rgb(14, 14, 14);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        /* color: rgba(220, 20, 60, 0.651); */
-        /* font-family: 'Poppins', sans-serif; */
-        padding: 60px 60px;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        text-align: center;
-    }
-
-    .testing-head{
-        font-size: 35px;
-        letter-spacing: -2px;
-        line-height: 90%;
-        transition: all 0.3s;
-    }
-
-    .testing{
-        color: rgb(190, 11, 16);
-        font-size: 38px;
-        letter-spacing: -5px;
-    }
-}
-
-@media(max-width:330px){
-    .rules-text{
-        font-size: 40px;
-        letter-spacing: -2px;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        text-align: center;
-        transition: all 0.3s;
-    }
-
-    
-    .red{
-        color: rgb(190, 11, 16);
-        font-size: 55px;
-    }
-
-    .count-down{
-        border-color: white;
-        /* border-style: solid; */
-        color: white;
-        width: 90%;
-        height: 550px;
-        background-color: rgb(14, 14, 14);
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        /* color: rgba(220, 20, 60, 0.651); */
-        /* font-family: 'Poppins', sans-serif; */
-        padding: 60px 60px;
-        font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        text-align: center;
-    }
-
-    .testing-head{
-        font-size: 30px;
-        letter-spacing: -2px;
-        line-height: 90%;
-        transition: all 0.3s;
-    }
-
-    .testing{
-        color: rgb(190, 11, 16);
-        font-size: 35px;
-        letter-spacing: -5px;
-    }
-
-    .about-text{
-        color: white;
-        /* font-family: 'Poppins', sans-serif; */
-        /* font-family: 'Montserrat', sans-serif; */
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        text-align: justify;
-        line-height: 150%;
-        width: 280px;
-    }
-
-    .com-mail{
-        font-size: 13px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        text-align: center;
-        transition: all 0.3s;
-        margin-top: 50px;
-        letter-spacing: 1;
-    }
 }
 
 .no-name{

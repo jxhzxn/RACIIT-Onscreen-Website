@@ -1,5 +1,15 @@
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167892687-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167892687-1');
+        </script>
+
         <title>Onscreen 2.0</title>
 
         <meta property="og:url"                content="http://onscreen.lk" />
@@ -164,6 +174,7 @@
                                 <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
                             </div>
                         <button type="submit" class="reg-btn" id="regbtn">Register</button>
+                        <a href="./frontend/vote-sign-in.php"><button type="button" class="reg-btn">Vote</button></a>
                     </form>
 
                    

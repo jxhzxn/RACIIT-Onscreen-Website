@@ -1,6 +1,13 @@
+<?php
+session_start();
+$jx = $_SESSION['jx'];
+if(empty($jx)){
+    echo 'Stop';
+}else{
+?>
 <html>
     <head>
-        <title>Registered List</title>
+        <title>Registrations</title>
         <link rel="icon" href="../assets/images/wide-logo-1.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -38,7 +45,7 @@
     <div class="second-container">
         <div class="form-container">
             <div class="reg-head-container">
-                <p class="rules-text">Registered List - <span class="red"><?php echo $rc; ?></span></p>
+                <p class="rules-text">Registrations - <span class="red"><?php echo $rc; ?></span></p>
             </div>
             <div class="intro-form-container">
 
@@ -46,11 +53,19 @@
                 $i=1;
                 foreach($row as $competitors){
 
+                    $query1 = 'SELECT * FROM voters WHERE voted = ?';
+                    $stmt1 = $con -> prepare($query1);
+                    $stmt1->bindParam(1,$competitors['cid']);
+                    $stmt1->execute();
+                    $row1 = $stmt1->fetchAll();
+                    $rc1 = $stmt1->rowCount();
+
             ?>
 
                     <div class="reg-element">
                         <p class="num"><?php echo $i?>.</p>
                         <p class="name"><?php echo $competitors['cname'] ?></p>
+                        <p class="votes">Votes -&nbsp;<span class="red-on"><?php echo $rc1 ?></span></p>
                         <p class="nic"><?php echo $competitors['cnic'] ?></p>
                         <p class="age"><?php echo $competitors['cage'] ?></p>
                         <p class="phone"><?php echo $competitors['ccontact'] ?></p>
@@ -78,6 +93,10 @@
    
     
 </html>
+
+<?php
+}
+?>
 
 
 
