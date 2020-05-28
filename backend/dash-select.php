@@ -29,7 +29,9 @@
      <div class="second-container">
         <div class="form-container">
             <div class="reg-head-container">
+<<<<<<< HEAD
                 <p id="reg-form" class="rules-text">Onscreen 2.0<br/>Dashboard</p>
+>>>>>>> e0cc307c424079ef896462c3babf9c2a96cf78dd
             </div>
             <div class="intro-form-container">
                 <a href="./123abc.php"><button type="submit" class="reg-btn" id="regbtn">Registered List</button></a>

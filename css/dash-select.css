@@ -297,7 +297,10 @@ a{
 .reg-btn{
     /* color: white; */
     /* margin-top: 40px; */
+<<<<<<< HEAD
     width: 300px;
+=======
+>>>>>>> e0cc307c424079ef896462c3babf9c2a96cf78dd
     color: white;
     margin-bottom: 20px;
     height: 70px;
@@ -1536,7 +1539,10 @@ input[type=number] {
         color: white;
         margin-bottom: 20px;
         height: 60px;
+<<<<<<< HEAD
         width: 300px;
+=======
+>>>>>>> e0cc307c424079ef896462c3babf9c2a96cf78dd
         letter-spacing: -1px;
         padding-left: 20px;
         padding-right: 20px;
@@ -2094,7 +2100,10 @@ input[type=number] {
         /* margin-top: 40px; */
         color: white;
         margin-bottom: 20px;
+<<<<<<< HEAD
         width: 300px;
+=======
+>>>>>>> e0cc307c424079ef896462c3babf9c2a96cf78dd
         height: 60px;
         letter-spacing: -1px;
         padding-left: 20px;
