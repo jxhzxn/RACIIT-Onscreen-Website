@@ -174,7 +174,7 @@
                                 <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
                             </div>
                         <button type="submit" class="reg-btn" id="regbtn">Register</button>
-                        <a href="./frontend/vote-sign-in.php"><button type="button" class="reg-btn">Vote</button></a>
+                        <!-- <a href="./frontend/vote-sign-in.php"><button type="button" class="reg-btn">Vote</button></a> -->
                     </form>
 
                    
