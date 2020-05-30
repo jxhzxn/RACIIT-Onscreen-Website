@@ -2,7 +2,7 @@
 session_start();
 
 $password = $_POST['password'];
-$key = 'Hidden@IIT_World&&';
+$key = 'ElonLaunchedFalcon9';
 
 if($password==$key){
     $_SESSION['jx'] = $key;
