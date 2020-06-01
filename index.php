@@ -84,13 +84,19 @@
                     <img class="world-vision-logo" src="./assets/images/world-vision-logo.png">
                 </div>
                 <div class="about-text-container">
-                    <p class="about-text">Project <span class="red-on">Onscreen 2.0</span> is an open competition for youth and children to showcase their talents on short film 
-                        making. The <span class="red-on">Rotaract Club of IIT</span> along with <span class="red-on">World Vision Lanka</span> is back with Onscreen phase two. Phase one was a workshop 
-                        carried out on movie-making to help the young generation to create short films to address real-life problems that they see 
-                        in our world. This project is focused on the topic <span class="red-on">"Hidden Heroes"</span>. Competitors will create short videos in Tik Tok to create 
-                        awareness for the real heroes who work day and night during the pandemic. We hope to create awareness for our hidden heroes 
-                        behind the mask who are currently risking their lives for us . Lucky winners will win exciting cash prices. Do register with your 
-                        very own Tik Tok video to stand a chance to win.
+                    <p class="about-text">Project <span class="red-on">Onscreen 2.0</span> is an open competition for youth and children to showcase 
+                    their talents on short film making. The <span class="red-on">Rotaract Club of IIT</span> along with 
+                    <span class="red-on">World Vision Lanka</span> is back 
+                    with Onscreen phase two. Phase one was a workshop carried out on movie-making to help the young 
+                    generation to create short films to address real-life problems that they see in our world. Phase II 
+                    of this project is focused on the topic "Hidden Heroes". Competitors are requested to create short 
+                    videos to raise awareness about the real heroes who supported the vulnerable children and communities 
+                    to survive this pandemic. Stories of these <span class="red-on">Hidden Heroes</span> ranging from Vegetable vendor in their 
+                    community, cleaners, Child Rights Promotion Officers who took care of them, doctors, public midwifes 
+                    and even a member in their family - mother or father, who supported them and their community to survive 
+                    the pandemic situation. We hope to create awareness for our hidden heroes behind the mask who are 
+                    currently risking their lives for us. Two winners will be selected and awarded exciting prizes. 
+                    Do register with your video to tell us about your hidden hero.
                     </p>
                 </div>
             </div>
@@ -196,22 +202,21 @@
             <div class="rules-desc-container">
                 <p class="rules-desc">
                     <ol class="rules-desc">
-                        <li>This will be an open event for youth and children.</li>
-                        <li>Applications will be called online and direct correspondence.</li>
-                        <li>Movie has to be based on the theme <span class="red-on">"Hidden Heroes"</span>. </li>
-                            <!-- <ul type="square">
-                                <li>Nutrition during this time of crises </li>
-                                <li>Importance of Hygiene </li>
-                                <li>A violence free home for the children</li>
-                                <li>Going green</li>
-                                <li>Mental health</li>
-                            </ul> -->
-                        <li>Language – no restrictions.</li>
-                        <li>Six cash prizes will be awarded for the categories 'The Most Creative' & 'The Most Popular'.</li>
-                        <li>Equipment to be used – mobile phones or entry-level video cameras are encouraged.</li>
-                        <li>No humans or animals should be harmed during filming and also no environmental pollution at any cost.</li>
-                        <li>TikTok will be used as the leading platform to create the movies.</li>
-                        <li>All submissions should uphold the values of protecting children and ensure their safety.</li>
+                        <li>This is an open event for youth and children. </li>
+                        <li> Applications will be called online and direct correspondence. </li>
+                        <li>Movie has to be based on the theme <span class="red-on">"Hidden Heroes"</span>.  </li>
+                        <li>Language – no restrictions. </li>
+                        <li>Movie has to be less than one minute. </li>
+                        <li>Prizes will be awarded for <span class="red-on">'The Most Creative Video'</span> and <span class="red-on">'The Most Popular Video'</span>. </li>
+                        <li>Deadline to submit the videos is  <span class="red-on">6.00 PM on Saturday 06th June 2020</span>. </li>
+                        <li>'Most Creative Video will be selected by a panel of judges and their call will be final. </li>
+                        <li>'Most Popular Video' will be selected by votes cast for the video. The poll will be hosted on 
+                        "Onscreen.lk" official website. <span class="red-on">Voting will start at 6.00 PM on Saturday 06th June 2020</span> and will 
+                        end at 06.00 PM the following day. Winners will be selected thereafter. </li>
+                        <li>Equipment to be used – mobile phones or entry-level video cameras are encouraged.  </li>
+                        <li>No humans or animals should be harmed during filming and also no environmental pollution at any cost.  </li>
+                        <li>All submissions should uphold the values of protecting children and ensure their safety. </li>
+                        
                     </ol>
                     </p>
             </div>
@@ -532,7 +537,7 @@ Array.prototype.forEach.call(
    
             
     <script>
-        var countDownDate = new Date("Jun 02, 2020 00:00:00").getTime();
+        var countDownDate = new Date("Jun 06, 2020 18:00:00").getTime();
 
         var x = setInterval(function(){
             var now = new Date().getTime();
