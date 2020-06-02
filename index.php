@@ -115,25 +115,25 @@
         </div>
     </div>
 
-    <!-- <div class="third-container">
+    <div class="third-container">
         <div class="rules-container">
         <div class="rules-head-container">
                 <p  id="prizes" class="rules-text">Prizes</p>
-                <p  class="rules-text-desc">The Winners of Onscreen 2.0 will Receive Cash Prizes <br/>for both the categories <br/>'The Most Creative' <span class="red-on">&</span> 'The Most Popular'</p>
+                <p  class="rules-text-desc">The Winners of Onscreen 2.0 will Receive Cash Prizes as Follows</p>
             </div>
             <div class="prize-text-container">
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text prize-1">1st Place<br/><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>25,000</p>
+                    <p  id="prizes" class="prize-text prize-1"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000</span><br/> Most Creative <br/>Video</p>
                 </div>
-                <div class="prize-box">
+                <!-- <div class="prize-box">
                     <p  id="prizes" class="prize-text prize-2">2nd Place<br/><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>15,000<br></p>
-                </div>
+                </div> -->
                 <div class="prize-box">
-                    <p  id="prizes" class="prize-text prize-3">3rd Place<br/><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000<br></p>
+                    <p  id="prizes" class="prize-text prize-2"><span class="prize-red-lkr">LKR</span><span class="prize-red"> <br>10,000</span><br/> Most Popular <br/>Video</p>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <div class="second-container">
