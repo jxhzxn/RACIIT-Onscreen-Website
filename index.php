@@ -107,6 +107,14 @@
         </div>
     </div>
 
+    <!-- <div class="fourth-container">
+        <div id="dead" class="countdown-container">
+            <div id="deadline" class="timer-container">
+                <p id="count-down" class="count-down"></p>
+            </div>
+        </div>
+    </div> -->
+
     <div class="third-container">
         <div class="rules-container">
         <div class="rules-head-container">
@@ -135,6 +143,33 @@
             </div>
             <div class="intro-form-container">
                     <form id="form-id" onsubmit="return false" action="./backend/index.php" method="POST" class="form-elements-container" enctype="multipart/form-data">
+                        <input class="form-element" id="userName" name="userName" type="text" placeholder="Full Name">
+                        <input class="form-element" id="userNIC" name="userNIC" type="text" placeholder="Your / Parent's NIC no.">
+                        <input class="form-element" id="userAge" name="userAge" type="number" placeholder="Age">
+                       
+                        <input class="form-element" id="userEmail" name="userEmail" type="email" placeholder="Email Address">
+                        <input class="form-element" id="userContact" name="userContact" type="number" placeholder="Contact Number">
+                       
+
+                        <div class="file-upload">
+                            <input class="file-upload__input" type="file" name="videoUpload" id="myFile" accept=".mp4"  required>
+                            <div class="up-label">
+                            <span class="file-upload__label"></span>
+                            </div>
+                            <button class="file-upload__button" id="upload-btn" type="button"><i class="fas fa-video"></i> Upload Video</button>
+                        </div>
+                        <div id="progress">
+                            <div class="progress">
+                                <span></span>
+                            </div>
+                            
+                        </div>
+
+                            <div class="checkbox-elements">
+                                <input type="checkbox" id="checkBox" value=1 >
+                                <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
+                            </div>
+                        <button type="submit" class="reg-btn" id="regbtn">Register</button>
                         <a href="./frontend/vote-sign-in.php"><button type="button" class="reg-btn">Vote</button></a>
                     </form>
 
