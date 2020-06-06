@@ -63,7 +63,7 @@
             </div>
             <div class="btn-container">
                 <a href="#about"><button class="left-btn">About</button></a>
-                <a href="#reg-form"><button class="left-btn">Register</button></a>
+                <a href="#reg-form"><button class="left-btn">Vote</button></a>
                 <a href="#prizes"><button class="left-btn">Prizes</button></a>
                 <a href="#deadline"><button class="left-btn">Deadline</button></a>
                 <a href="#rules"><button class="left-btn">Rules</button></a>
@@ -139,27 +139,17 @@
     <div class="second-container">
         <div class="form-container">
             <div class="reg-head-container">
-                <p id="reg-form" class="rules-text">Register Now</p>
+                <p id="reg-form" class="rules-text">Make your Vote</p>
             </div>
             <div class="intro-form-container">
                     <form id="form-id" onsubmit="return false" action="./backend/index.php" method="POST" class="form-elements-container" enctype="multipart/form-data">
-                        <input class="form-element" id="userName" name="userName" type="text" placeholder="Full Name">
+                        <!-- <input class="form-element" id="userName" name="userName" type="text" placeholder="Full Name">
                         <input class="form-element" id="userNIC" name="userNIC" type="text" placeholder="Your / Parent's NIC no.">
                         <input class="form-element" id="userAge" name="userAge" type="number" placeholder="Age">
-                        <!-- <select class="form-element" name="userTheme" required>
-                            <option value="" disabled selected hidden>Select the Theme</option>
-                            <option value="Nutrition During Crises">Nutrition during this time of crises</option>
-                            <option value="Importance of Hygiene">Importance of Hygiene</option>
-                            <option value="Violence Free Home">A violence free home for the children</option>
-                            <option value="Going Green">Going green</option>
-                            <option value="Mental Health">Mental health</option>
-                        </select> -->
+                       
                         <input class="form-element" id="userEmail" name="userEmail" type="email" placeholder="Email Address">
                         <input class="form-element" id="userContact" name="userContact" type="number" placeholder="Contact Number">
-                        <!-- <label class="custom-file-upload">
-                        <i class="fas fa-video"></i> Upload Video
-                            <input type="file" name="videoUpload" id="videoUpload" required>
-                        </label> -->
+                       
 
                         <div class="file-upload">
                             <input class="file-upload__input" type="file" name="videoUpload" id="myFile" accept=".mp4"  required>
@@ -179,8 +169,8 @@
                                 <input type="checkbox" id="checkBox" value=1 >
                                 <div class="checkbox-text">I have carefully read the <a href="#rules" class="check-rules"><b>Rules & Regulations</b></a></div><br>
                             </div>
-                        <button type="submit" class="reg-btn" id="regbtn">Register</button>
-                        <!-- <a href="./frontend/vote-sign-in.php"><button type="button" class="reg-btn">Vote</button></a> -->
+                        <button type="submit" class="reg-btn" id="regbtn">Register</button> -->
+                        <a href="./frontend/vote-sign-in.php"><button type="button" class="reg-btn">Vote</button></a>
                     </form>
 
                    
