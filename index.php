@@ -107,13 +107,13 @@
         </div>
     </div>
 
-    <!-- <div class="fourth-container">
+    <div class="fourth-container">
         <div id="dead" class="countdown-container">
             <div id="deadline" class="timer-container">
                 <p id="count-down" class="count-down"></p>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <div class="third-container">
         <div class="rules-container">
